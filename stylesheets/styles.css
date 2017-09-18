@@ -1,0 +1,13 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 1200px;
+}
+body a{
+	color: red!important;
+}
+.ul.nav.navbar-nav a{
+	font-size: 30px!important;
+}
+.col-md-4 button{
+	width: 300px;
+}
