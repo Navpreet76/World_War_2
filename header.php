@@ -21,13 +21,16 @@
       
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
       <li><a href="armies.php">Armies</a></li>
-      <li><a href="weapons.php">Weapons</a></li>
-      <li><a href="armor.php">Armor</a></li>
-      <li><a href="aircraft.php">Aircraft</a></li>
-      <li><a href="navy.php">Navy</a></li>
-      <li><a href="specops.php">Special Forces</a></li>
+      <li><a href="allied_armor.php">Allied Armor</a></li>
+      <li><a href="allied_aircraft.php">Allied Aircraft</a></li>
+      <li><a href="navy.php">Allied Navy</a></li>
+      <li><a href="navy.php">Allied small Arms</a></li>
+      <li><a href="axis_armor.php">Axis Armor</a></li>
+      <li><a href="axis_aircraft.php">Axis Aircraft</a></li>
+      <li><a href="axis_navy.php">Axis Navy</a></li>
+      <li><a href="weapons.php">Axis Small Arms</a></li>
+      
   	  
     
     <!-- <form class="navbar-form navbar-left">

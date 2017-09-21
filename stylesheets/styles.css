@@ -1,13 +1,67 @@
 body {
-	font-family: 'Open Sans', sans-serif;
-	width: 1200px;
+	font-family: 'Open Sans', sans-serif!important;
+	font-size: 22px!important;
+	background-color: #D3D3D3;
+	
 }
-body a{
+body h1{
+	font-size: 36px!important;
+}
+/*body a{
 	color: red!important;
-}
+}*/
 .ul.nav.navbar-nav a{
 	font-size: 30px!important;
 }
 .col-md-4 button{
 	width: 300px;
+}
+.col-md-4 h1{
+	text-align: center;
+}
+.specialh h1{
+	color: red;
+	font-size: 120px!important;
+}
+footer{
+	height: 150px!important;
+}
+.alert alert-danger a{
+	vertical-align: center;
+	font-size: 35px!important;
+	text-decoration: none;
+
+}
+button.btn.btn-danger{
+	/*width: 100px!important;*/
+}
+button.btn.btn-warning{
+	/*width: 100px!important;*/
+}
+.longbutton{
+	width: 400px!important;
+}
+.col-md-8{
+	/*text-align: center;*/
+}
+footer li{
+	display: inline-block;
+	/*margin-left: 120px;*/
+	height: 45px;
+
+}
+footer li a{
+	padding: 2em;
+	color: #9d9d9d;
+}
+footer ul{
+	background-color: #333;
+	text-align: center;
+}
+footer{
+
+}
+a.navbar-brand{
+	color: red!important;
+	font-size: 26px;
 }
