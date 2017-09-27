@@ -1,11 +1,20 @@
 body {
 	font-family: 'Open Sans', sans-serif!important;
 	font-size: 22px!important;
-	background-color: #D3D3D3;
-	
+		
 }
 body h1{
 	font-size: 36px!important;
+}
+body hr{
+
+	height: 2px;
+	color: red!important;
+	background-color: #D3D3D3;
+	border: none;
+}
+#wrapper{
+
 }
 /*body a{
 	color: red!important;
@@ -44,6 +53,9 @@ button.btn.btn-warning{
 .col-md-8{
 	/*text-align: center;*/
 }
+.col-md-4{
+	text-align: center;
+}
 footer li{
 	display: inline-block;
 	/*margin-left: 120px;*/
@@ -64,4 +76,8 @@ footer{
 a.navbar-brand{
 	color: red!important;
 	font-size: 26px;
+}
+#special_button a{
+	color: #fff;
+	text-shadow: .2em;
 }

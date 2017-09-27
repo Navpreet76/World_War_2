@@ -27,11 +27,12 @@
 	<h4>Tanks and fighting vehicles: 68,700</h4>
 	<h4>Special Forces: 82nd Airborne and 101st Airborne divisions</h4>
 	<hr>
-	<button type="button" class="btn btn-danger"><a href="allied_armor.php">Tanks</button>
-	<button type="button" class="btn btn-warning">Aircraft</button>
-	<button type="button" class="btn btn-info">Small Arms</button>
-	<button type="button" class="btn btn-primary">Elite Troops</button>
-	
+	<div id="special_button">
+	<button type="button" class="btn btn-danger"><a href="allied_armor.php">Tanks</a></button>
+	<button type="button" class="btn btn-warning"><a href="allied_aircraft.php">Aircraft</button>
+	<button type="button" class="btn btn-info"><a href="allied_small_arms.php">Small Arms</button>
+	<button type="button" class="btn btn-primary"><a href="allied_elite.php">Elite Troops</button>
+	</div>
 </div>
 
 

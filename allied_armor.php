@@ -13,6 +13,7 @@
     <button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#demo8"><h4>Cromwell</h4></button>
     <button type="button" class="btn btn-success" data-toggle ="collapse" data-target="#demo9"><h4>Churchhill</h4></button>
     <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo10"><h4>T-29</h4></button>
+    
     <hr>
     <div id="demo7" class="collapse"><p>Pershing Information</p></div>
     <div id="demo8" class="collapse"><p>Cromwell Information</p></div>
@@ -131,10 +132,14 @@
     <button type="button" class="btn btn-success" data-toggle ="collapse" data-target="#demo17"><h4>M22</h4></button>
     <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo18"><h4>M2</h4></button>
     <hr>
-    <div id="demo15" class="collapse"><p>Stuart M5</p></div>
-    <div id="demo16" class="collapse"><p>M24 Chaffee</p></div>
+    <div id="demo15" class="collapse"><p>The M3 Stuart, officially Light Tank, M3, is an American light tank of World War II. It was supplied to British and Commonwealth forces under lend-lease prior to the entry of the U.S. into the war. Thereafter, it was used by U.S. and Allied forces until the end of the war.
+
+The British service name "Stuart" came from the American Civil War Confederate general J. E. B. Stuart and was used for both the M3 and the derivative M5 Light Tank. In British service, it also had the unofficial nickname of "Honey" after a tank driver remarked "She's a honey".[3] In U.S. use, the tanks were officially known as "Light Tank M3" and "Light Tank M5".
+
+Stuarts were the first American-crewed tanks in World War II to engage the enemy in tank versus tank combat.</p></div>
+    <div id="demo16" class="collapse"><p>The M24 Chaffee, officially Light Tank, M24, is an American light tank used during the later part of World War II and in postwar conflicts including the Korean War and, with the French, in the War in Algeria and the First Indochina War. In British service it was given the service name Chaffee after the United States Army General Adna R. Chaffee, Jr., who helped develop the use of tanks in the United States armed forces. While long removed from American and British service, it is still found in service as a light tank in third-world countries, along with other hardware from that era.</p></div>
     <div id="demo17" class="collapse"><p>M22 Light Tank</p></div>
-    <div id="demo18" class="collapse"><p>M2 Light Tank</p></div>
+    <div id="demo18" class="collapse"><p>The M2 light tank, officially Light Tank, M2, was an American pre-World War II light tank which saw limited use during World War II. The most common model, the M2A4, was equipped with one 37 mm (1.5 in) M5 gun and five .30 cal M1919 Browning machine guns.</p></div>
   </div>
   <div class="col-md-4">
       <div class="thumbnail">

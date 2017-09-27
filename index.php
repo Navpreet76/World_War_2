@@ -1,3 +1,4 @@
+<?php include 'sqltemplate.php' ?>
 <?php include 'header.php' ?>
 <!DOCTYPE html>
 <html>
