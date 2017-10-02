@@ -10,7 +10,7 @@
 	<h1>The Allies</h1>
 	<div class="alert alert-success"><strong><a href="usa.php">United States</a></strong></div>
 	<div class="alert alert-success"><strong><a href="unitedkingdom.php">United Kingdom</a></strong></div>
-	<div class="alert alert-success"><strong><a href="russia.php">Russia</a></strong></div>
+	<div class="alert alert-success"><strong><a href="russia.php">USSR</a></strong></div>
 	<div class="alert alert-success"><strong><a href="china.php">China</a></strong></div>
 </div>
 <div class="col-md-4">

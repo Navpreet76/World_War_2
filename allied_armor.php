@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>;
+<?php include 'header.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,27 +6,220 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<div class="col-md-8">
-    <h1>Allied Heavy Tanks</h1>
-    <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo7"><h4>Pershing</h4></button>
+  <h1>Allied Heavy Tanks</h1>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#collapse1">Pershing U.S.A</button></a>
+          </h4>
+
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 46 Short tonnes</h4>
+          <h4>Armor : 50-102mm</h4>
+          <h4>Main Armament : 90 mm gun M3</h4>
+          <h4>Secondary Armament : 2 x Browning .30-06 Machine guns - 5000 rounds</h4>
+          <h4>Browning .50 Cal Machine gun - 550 rounds</h4>
+          <h4>Speed : 30 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/pershing.jpg">
+          <img src="/images/pershing.jpg" alt="pershing" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Pershing Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_pershing2.jpg">
+          <img src="/images/tank_pershing2.jpg" alt="pershing2" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Pershing Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_pershing3.jpg">
+          <img src="/images/tank_pershing3.jpg" alt="pershing3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Pershing Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+    </div>
+      </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><button type="button" class="btn btn-primary" data-toggle ="collapse" data-target="#collapse2">Cromwell U.K</button></a>
+          </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 27.6 long tonnes</h4>
+          <h4>Armor : 76-100mm</h4>
+          <h4>Main Armament : Ordinance Q5 75mm</h4>
+          <h4>Secondary Armament : 2 x 7.92mm Besa Machine guns - 4950 rounds</h4>
+          <h4>Speed : 40 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/cromwell.jpg">
+          <img src="/images/cromwell.jpg" alt="cromwell" style="width:90%;height: 250px;"></a>
+          <div class="caption">
+          <p>British Cromwell Heavy Tank</p>
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_cromwell2.jpg">
+          <img src="/images/tank_cromwell2.jpg" alt="cromwell2" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Cromwell Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_cromwell3.jpg">
+          <img src="/images/tank_cromwell3.jpg" alt="cromwell3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Cromwell Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          </div>
+      </div>
+      <div class="panel panel-info">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><button type="button" class="btn btn-primary" data-toggle ="collapse" data-target="#collapse3">Churchill U.K</button></a>
+          </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 38.5 Long tonnes</h4>
+          <h4>Armor : 76-102mm</h4>
+          <h4>Main Armament : Q5 95mm</h4>
+          <h4>Secondary Armament : 2 x 7.92mm Besa machine guns, 5000 rounds</h4>
+          <h4>Speed : 15 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/churchill_heavy.jpg">
+          <img src="/images/churchill_heavy.jpg" alt="cromwell" style="width:90%;height: 250px;"></a>
+          <div class="caption">
+          <p>Churchill Heavy Tank</p>
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="/images/churchill_tank.jpg">
+                <img src="/images/churchill_tank.jpg" alt="churchill_tank" style="width:90%;"></a>
+                <div class="caption">
+                  <p>Churchill Tank</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_churchill3.jpg">
+          <img src="/images/tank_churchill3.jpg" alt="Churchill3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Churchill Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+        </div>
+        </div> 
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#collapse4">T-29 USSR</button></a>
+          </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 64.2 Tonnes</h4>
+          <h4>Armor : 102-249mm</h4>
+          <h4>Main Armament : 105mm gun T5E1</h4>
+          <h4>Secondary Armament : 2 x .50 Browning M2HB machine guns, 5000 rounds</h4>
+          <h4>Speed : 22 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/images/T29.jpg">
+            <img src="/images/T29.jpg" alt="T29" style="width:90%;height:250px;"></a>
+            <div class="caption">
+              <p>Russian T-29 Heavy Tank</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/images/tank_t29_proto.jpg">
+            <img src="/images/tank_t29_proto.jpg" alt="T29" style="width:90%;height:250px;"></a>
+            <div class="caption">
+              <p>Russian T-29 Heavy Tank</p>
+            </div>
+            </a>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="/images/tank_pershing2.jpg">
+                  <img src="/images/tank_pershing2.jpg" alt="pershing2" style="width:90%;height:250px;"></a>
+                  <div class="caption">
+                  <p>T-29 Heavy Tank</p>
+
+                  </div>
+                  </a>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+            
+
+      </div>
+  
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    </div>
     
-    <button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#demo8"><h4>Cromwell</h4></button>
-    <button type="button" class="btn btn-success" data-toggle ="collapse" data-target="#demo9"><h4>Churchhill</h4></button>
-    <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo10"><h4>T-29</h4></button>
-    
-    <hr>
-    <div id="demo7" class="collapse"><p>Pershing Information</p></div>
-    <div id="demo8" class="collapse"><p>Cromwell Information</p></div>
-    <div id="demo9" class="collapse"><p>Churchhill Information</p></div>
-    <div id="demo10" class="collapse"><p>T-29 Information</p></div>
-      
-  </div>
+   
+          
+  <!-- </div> -->
   <div class="col-md-4">
       <div class="thumbnail">
         <a href="/images/pershing.jpg">
         <img src="/images/pershing.jpg" alt="pershing" style="width:90%;height: 350px"></a>
         <div class="caption">
           <p>Pershing Heavy Tank</p>
+
         </div>
       </a>
     </div>
@@ -66,12 +259,209 @@
     <hr>
   </div>
   <div class="col-md-8">
-    <h1>Allied Medium Tanks</h1>
-    <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo11"><h4>M4 Sherman</h4></button>
+  <h1>Allied Medium Tanks</h1>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#collapse5">M4 Sherman U.S.A</button></a>
+          </h4>
+
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 46 Short tonnes</h4>
+          <h4>Armor : 50-102mm</h4>
+          <h4>Main Armament : 90 mm gun M3</h4>
+          <h4>Secondary Armament : 2 x Browning .30-06 Machine guns - 5000 rounds</h4>
+          <h4>Browning .50 Cal Machine gun - 550 rounds</h4>
+          <h4>Speed : 30 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/american_tank1.jpg">
+          <img src="/images/american_tank1.jpg" alt="sherman" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>M4 Sherman</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/shermanfirefly3.jpg">
+          <img src="/images/shermanfirefly3.jpg" alt="shermanfirefly3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Sherman Firefly with the 75mm gun</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/Sherman_Tank_WW2.jpg">
+          <img src="/images/Sherman_Tank_WW2.jpg" alt="Sherman_Tank_WW2" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>The original Sherman M4 had a weak main gun that could only penetrate the Tiger at closer than 500 meters.</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+    </div>
+      </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#collapse6">T-34 USSR</button></a>
+          </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 27.6 long tonnes</h4>
+          <h4>Armor : 76-100mm</h4>
+          <h4>Main Armament : Ordinance Q5 75mm</h4>
+          <h4>Secondary Armament : 2 x 7.92mm Besa Machine guns - 4950 rounds</h4>
+          <h4>Speed : 40 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/t34tank.jpg">
+          <img src="/images/t34tank.jpg" alt="t34tank" style="width:90%;height: 250px;"></a>
+          <div class="caption">
+          <p>T-34 Russian Medium Tank</p>
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tanks/tank_t34_2.jpg">
+          <img src="/images/tanks/tank_t34_2.jpg" alt="tank_t34_2" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>T34 Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tanks/tank_t34_3.jpg">
+          <img src="/images/tanks/tank_t34_3.jpg" alt="tank_t34_3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>T34s played a huge role in the War</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+          </div>
+      </div>
+      <div class="panel panel-info">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><button type="button" class="btn btn-primary" data-toggle ="collapse" data-target="#collapse3">Churchill U.K</button></a>
+          </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 38.5 Long tonnes</h4>
+          <h4>Armor : 76-102mm</h4>
+          <h4>Main Armament : Q5 95mm</h4>
+          <h4>Secondary Armament : 2 x 7.92mm Besa machine guns, 5000 rounds</h4>
+          <h4>Speed : 15 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/churchill_heavy.jpg">
+          <img src="/images/churchill_heavy.jpg" alt="cromwell" style="width:90%;height: 250px;"></a>
+          <div class="caption">
+          <p>Churchill Heavy Tank</p>
+          </div>
+          </a>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="/images/churchill_tank.jpg">
+                <img src="/images/churchill_tank.jpg" alt="churchill_tank" style="width:90%;"></a>
+                <div class="caption">
+                  <p>Churchill Tank</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="thumbnail">
+          <a href="/images/tank_churchill3.jpg">
+          <img src="/images/tank_churchill3.jpg" alt="Churchill3" style="width:90%;height:250px;"></a>
+          <div class="caption">
+          <p>Churchill Heavy Tank</p>
+
+          </div>
+          </a>
+          </div>
+          </div>
+        </div>
+        </div> 
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#collapse4">T-29 USSR</button></a>
+          </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+          <h4>Weight : 64.2 Tonnes</h4>
+          <h4>Armor : 102-249mm</h4>
+          <h4>Main Armament : 105mm gun T5E1</h4>
+          <h4>Secondary Armament : 2 x .50 Browning M2HB machine guns, 5000 rounds</h4>
+          <h4>Speed : 22 mph</h4>
+          <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/images/T29.jpg">
+            <img src="/images/T29.jpg" alt="T29" style="width:90%;height:250px;"></a>
+            <div class="caption">
+              <p>Russian T-29 Heavy Tank</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/images/tank_t29_proto.jpg">
+            <img src="/images/tank_t29_proto.jpg" alt="T29" style="width:90%;height:250px;"></a>
+            <div class="caption">
+              <p>Russian T-29 Heavy Tank</p>
+            </div>
+            </a>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="/images/tank_pershing2.jpg">
+                  <img src="/images/tank_pershing2.jpg" alt="pershing2" style="width:90%;height:250px;"></a>
+                  <div class="caption">
+                  <p>T-29 Heavy Tank</p>
+
+                  </div>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    </div>
     
-    <button type="button" class="btn btn-warning" data-toggle ="collapse" data-target="#demo12"><h4>Sherman</h4></button>
-    <button type="button" class="btn btn-success" data-toggle ="collapse" data-target="#demo13"><h4>T-34</h4></button>
-    <button type="button" class="btn btn-danger" data-toggle ="collapse" data-target="#demo14"><h4>M4 Firefly</h4></button>
+   
+          
+  </div>
     <hr>
     <div id="demo11" class="collapse"><p>M4 Information</p></div>
     <div id="demo12" class="collapse"><p>Sherman Information</p></div>

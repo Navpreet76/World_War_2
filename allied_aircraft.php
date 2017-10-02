@@ -12,7 +12,10 @@
     <hr>
       <div id="demo" class="collapse">
       <h2>P-51 Mustang</h2>
-        <h4>Information about this fighter</h4> 
+        <h4>Role : Fighter</h4>
+        <h4>Numbers Built : 15,000</h4>
+        <h4>Manufacturer : North American Aviation</h4>
+        <p>The P51 Mustang was one of the most versatile fighters in the second World War. Upgrading the engine to a Merlin engine made by Rolls Royce made this one of the best fighters in the world.</p>
       </div>
       
   </div>	
